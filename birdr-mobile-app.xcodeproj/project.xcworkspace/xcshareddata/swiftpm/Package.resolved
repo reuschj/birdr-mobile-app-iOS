@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "BirdrFoundation",
+        "repositoryURL": "https://github.com/reuschj/birdr-foundation-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "d42843ebb6526e8511560217243657a7395695cd",
+          "version": "0.0.15"
+        }
+      },
+      {
+        "package": "birdr-framework-layer-apple-platforms",
+        "repositoryURL": "https://github.com/reuschj/birdr-framework-layer-apple-platforms.git",
+        "state": {
+          "branch": null,
+          "revision": "a9cd6a399843407cf03c1504a40e5621b033df93",
+          "version": "0.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

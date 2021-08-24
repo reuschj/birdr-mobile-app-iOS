@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4447CAE26D4C4AC000343D9 /* AppTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CAD26D4C4AC000343D9 /* AppTabs.swift */; };
+		A4447CB026D4C949000343D9 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CAF26D4C949000343D9 /* HomeScreen.swift */; };
+		A4447CB226D4C9C5000343D9 /* SpottingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CB126D4C9C5000343D9 /* SpottingsScreen.swift */; };
+		A4447CB426D4C9DA000343D9 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CB326D4C9DA000343D9 /* SettingsScreen.swift */; };
+		A4447CB626D4C9F3000343D9 /* NotificationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CB526D4C9F3000343D9 /* NotificationsScreen.swift */; };
+		A4447CB826D4CA12000343D9 /* ComingSoonDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CB726D4CA12000343D9 /* ComingSoonDisplay.swift */; };
+		A4447CBB26D4D08D000343D9 /* AnyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CBA26D4D08D000343D9 /* AnyImage.swift */; };
+		A4447CBD26D4D314000343D9 /* BirdrIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CBC26D4D314000343D9 /* BirdrIcon.swift */; };
+		A4447CBF26D4D3DE000343D9 /* BirdrLogoWithCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CBE26D4D3DE000343D9 /* BirdrLogoWithCopy.swift */; };
+		A4447CC126D4D7E2000343D9 /* UnderConstructionLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CC026D4D7E2000343D9 /* UnderConstructionLogo.swift */; };
+		A4447CC526D4DF1E000343D9 /* AddSpottingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CC426D4DF1E000343D9 /* AddSpottingScreen.swift */; };
+		A4447CC726D4E147000343D9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CC626D4E147000343D9 /* ImagePicker.swift */; };
+		A4447CC926D4E53C000343D9 /* ImagePickerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4447CC826D4E53C000343D9 /* ImagePickerContainer.swift */; };
+		A449A5A626D4A67600387318 /* birdrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A449A5A526D4A67600387318 /* birdrApp.swift */; };
+		A449A5A826D4A67600387318 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A449A5A726D4A67600387318 /* ContentView.swift */; };
+		A449A5AA26D4A67B00387318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A449A5A926D4A67B00387318 /* Assets.xcassets */; };
+		A449A5AD26D4A67B00387318 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A449A5AC26D4A67B00387318 /* Preview Assets.xcassets */; };
+		A449A5B826D4A67C00387318 /* birdr_mobile_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A449A5B726D4A67C00387318 /* birdr_mobile_appTests.swift */; };
+		A449A5C326D4A67C00387318 /* birdr_mobile_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A449A5C226D4A67C00387318 /* birdr_mobile_appUITests.swift */; };
+		A449A5D526D4ABB300387318 /* BirdrAPIFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = A449A5D426D4ABB300387318 /* BirdrAPIFoundation */; };
+		A449A5D726D4ABB300387318 /* BirdrAPIClient in Frameworks */ = {isa = PBXBuildFile; productRef = A449A5D626D4ABB300387318 /* BirdrAPIClient */; };
+		A4ACD32826D569D600B227DF /* SpottingScreenPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ACD32726D569D600B227DF /* SpottingScreenPublisher.swift */; };
+		A4ACD32A26D5885F00B227DF /* BirdSpottingDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ACD32926D5885F00B227DF /* BirdSpottingDisplay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A449A5B426D4A67C00387318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A449A59A26D4A67600387318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A449A5A126D4A67600387318;
+			remoteInfo = "birdr-mobile-app";
+		};
+		A449A5BF26D4A67C00387318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A449A59A26D4A67600387318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A449A5A126D4A67600387318;
+			remoteInfo = "birdr-mobile-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4447CAD26D4C4AC000343D9 /* AppTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabs.swift; sourceTree = "<group>"; };
+		A4447CAF26D4C949000343D9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		A4447CB126D4C9C5000343D9 /* SpottingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpottingsScreen.swift; sourceTree = "<group>"; };
+		A4447CB326D4C9DA000343D9 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		A4447CB526D4C9F3000343D9 /* NotificationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsScreen.swift; sourceTree = "<group>"; };
+		A4447CB726D4CA12000343D9 /* ComingSoonDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonDisplay.swift; sourceTree = "<group>"; };
+		A4447CBA26D4D08D000343D9 /* AnyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyImage.swift; sourceTree = "<group>"; };
+		A4447CBC26D4D314000343D9 /* BirdrIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdrIcon.swift; sourceTree = "<group>"; };
+		A4447CBE26D4D3DE000343D9 /* BirdrLogoWithCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdrLogoWithCopy.swift; sourceTree = "<group>"; };
+		A4447CC026D4D7E2000343D9 /* UnderConstructionLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderConstructionLogo.swift; sourceTree = "<group>"; };
+		A4447CC426D4DF1E000343D9 /* AddSpottingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpottingScreen.swift; sourceTree = "<group>"; };
+		A4447CC626D4E147000343D9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A4447CC826D4E53C000343D9 /* ImagePickerContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerContainer.swift; sourceTree = "<group>"; };
+		A449A5A226D4A67600387318 /* birdr-mobile-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "birdr-mobile-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A449A5A526D4A67600387318 /* birdrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdrApp.swift; sourceTree = "<group>"; };
+		A449A5A726D4A67600387318 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A449A5A926D4A67B00387318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A449A5AC26D4A67B00387318 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A449A5AE26D4A67B00387318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A449A5B326D4A67C00387318 /* birdr-mobile-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "birdr-mobile-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A449A5B726D4A67C00387318 /* birdr_mobile_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdr_mobile_appTests.swift; sourceTree = "<group>"; };
+		A449A5B926D4A67C00387318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A449A5BE26D4A67C00387318 /* birdr-mobile-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "birdr-mobile-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A449A5C226D4A67C00387318 /* birdr_mobile_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birdr_mobile_appUITests.swift; sourceTree = "<group>"; };
+		A449A5C426D4A67C00387318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4ACD32726D569D600B227DF /* SpottingScreenPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpottingScreenPublisher.swift; sourceTree = "<group>"; };
+		A4ACD32926D5885F00B227DF /* BirdSpottingDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdSpottingDisplay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A449A59F26D4A67600387318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A449A5D726D4ABB300387318 /* BirdrAPIClient in Frameworks */,
+				A449A5D526D4ABB300387318 /* BirdrAPIFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449A5B026D4A67C00387318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449A5BB26D4A67C00387318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4447CAA26D4AE05000343D9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A4447CB926D4CE1D000343D9 /* Assets */,
+				A4447CB726D4CA12000343D9 /* ComingSoonDisplay.swift */,
+				A4447CAB26D4AE10000343D9 /* Buttons */,
+				A4447CC626D4E147000343D9 /* ImagePicker.swift */,
+				A4447CC826D4E53C000343D9 /* ImagePickerContainer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A4447CAB26D4AE10000343D9 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		A4447CAC26D4C471000343D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4447CAD26D4C4AC000343D9 /* AppTabs.swift */,
+				A4447CAF26D4C949000343D9 /* HomeScreen.swift */,
+				A4447CB126D4C9C5000343D9 /* SpottingsScreen.swift */,
+				A4447CB526D4C9F3000343D9 /* NotificationsScreen.swift */,
+				A4447CB326D4C9DA000343D9 /* SettingsScreen.swift */,
+				A4447CC426D4DF1E000343D9 /* AddSpottingScreen.swift */,
+				A4ACD32926D5885F00B227DF /* BirdSpottingDisplay.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4447CB926D4CE1D000343D9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A4447CBA26D4D08D000343D9 /* AnyImage.swift */,
+				A4447CBC26D4D314000343D9 /* BirdrIcon.swift */,
+				A4447CBE26D4D3DE000343D9 /* BirdrLogoWithCopy.swift */,
+				A4447CC026D4D7E2000343D9 /* UnderConstructionLogo.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A449A59926D4A67600387318 = {
+			isa = PBXGroup;
+			children = (
+				A449A5A426D4A67600387318 /* birdr-mobile-app */,
+				A449A5B626D4A67C00387318 /* birdr-mobile-appTests */,
+				A449A5C126D4A67C00387318 /* birdr-mobile-appUITests */,
+				A449A5A326D4A67600387318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A449A5A326D4A67600387318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A449A5A226D4A67600387318 /* birdr-mobile-app.app */,
+				A449A5B326D4A67C00387318 /* birdr-mobile-appTests.xctest */,
+				A449A5BE26D4A67C00387318 /* birdr-mobile-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A449A5A426D4A67600387318 /* birdr-mobile-app */ = {
+			isa = PBXGroup;
+			children = (
+				A4ACD32626D569AC00B227DF /* Publishers */,
+				A4447CAC26D4C471000343D9 /* Views */,
+				A4447CAA26D4AE05000343D9 /* Components */,
+				A449A5A526D4A67600387318 /* birdrApp.swift */,
+				A449A5A726D4A67600387318 /* ContentView.swift */,
+				A449A5A926D4A67B00387318 /* Assets.xcassets */,
+				A449A5AE26D4A67B00387318 /* Info.plist */,
+				A449A5AB26D4A67B00387318 /* Preview Content */,
+			);
+			path = "birdr-mobile-app";
+			sourceTree = "<group>";
+		};
+		A449A5AB26D4A67B00387318 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A449A5AC26D4A67B00387318 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A449A5B626D4A67C00387318 /* birdr-mobile-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				A449A5B726D4A67C00387318 /* birdr_mobile_appTests.swift */,
+				A449A5B926D4A67C00387318 /* Info.plist */,
+			);
+			path = "birdr-mobile-appTests";
+			sourceTree = "<group>";
+		};
+		A449A5C126D4A67C00387318 /* birdr-mobile-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A449A5C226D4A67C00387318 /* birdr_mobile_appUITests.swift */,
+				A449A5C426D4A67C00387318 /* Info.plist */,
+			);
+			path = "birdr-mobile-appUITests";
+			sourceTree = "<group>";
+		};
+		A4ACD32626D569AC00B227DF /* Publishers */ = {
+			isa = PBXGroup;
+			children = (
+				A4ACD32726D569D600B227DF /* SpottingScreenPublisher.swift */,
+			);
+			path = Publishers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A449A5A126D4A67600387318 /* birdr-mobile-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A449A5C726D4A67C00387318 /* Build configuration list for PBXNativeTarget "birdr-mobile-app" */;
+			buildPhases = (
+				A449A59E26D4A67600387318 /* Sources */,
+				A449A59F26D4A67600387318 /* Frameworks */,
+				A449A5A026D4A67600387318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "birdr-mobile-app";
+			packageProductDependencies = (
+				A449A5D426D4ABB300387318 /* BirdrAPIFoundation */,
+				A449A5D626D4ABB300387318 /* BirdrAPIClient */,
+			);
+			productName = "birdr-mobile-app";
+			productReference = A449A5A226D4A67600387318 /* birdr-mobile-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A449A5B226D4A67C00387318 /* birdr-mobile-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A449A5CA26D4A67C00387318 /* Build configuration list for PBXNativeTarget "birdr-mobile-appTests" */;
+			buildPhases = (
+				A449A5AF26D4A67C00387318 /* Sources */,
+				A449A5B026D4A67C00387318 /* Frameworks */,
+				A449A5B126D4A67C00387318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A449A5B526D4A67C00387318 /* PBXTargetDependency */,
+			);
+			name = "birdr-mobile-appTests";
+			productName = "birdr-mobile-appTests";
+			productReference = A449A5B326D4A67C00387318 /* birdr-mobile-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A449A5BD26D4A67C00387318 /* birdr-mobile-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A449A5CD26D4A67C00387318 /* Build configuration list for PBXNativeTarget "birdr-mobile-appUITests" */;
+			buildPhases = (
+				A449A5BA26D4A67C00387318 /* Sources */,
+				A449A5BB26D4A67C00387318 /* Frameworks */,
+				A449A5BC26D4A67C00387318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A449A5C026D4A67C00387318 /* PBXTargetDependency */,
+			);
+			name = "birdr-mobile-appUITests";
+			productName = "birdr-mobile-appUITests";
+			productReference = A449A5BE26D4A67C00387318 /* birdr-mobile-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A449A59A26D4A67600387318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A449A5A126D4A67600387318 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A449A5B226D4A67C00387318 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A449A5A126D4A67600387318;
+					};
+					A449A5BD26D4A67C00387318 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A449A5A126D4A67600387318;
+					};
+				};
+			};
+			buildConfigurationList = A449A59D26D4A67600387318 /* Build configuration list for PBXProject "birdr-mobile-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A449A59926D4A67600387318;
+			packageReferences = (
+				A449A5D326D4ABB300387318 /* XCRemoteSwiftPackageReference "birdr-framework-layer-apple-platforms" */,
+			);
+			productRefGroup = A449A5A326D4A67600387318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A449A5A126D4A67600387318 /* birdr-mobile-app */,
+				A449A5B226D4A67C00387318 /* birdr-mobile-appTests */,
+				A449A5BD26D4A67C00387318 /* birdr-mobile-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A449A5A026D4A67600387318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A449A5AD26D4A67B00387318 /* Preview Assets.xcassets in Resources */,
+				A449A5AA26D4A67B00387318 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449A5B126D4A67C00387318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449A5BC26D4A67C00387318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A449A59E26D4A67600387318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4447CC926D4E53C000343D9 /* ImagePickerContainer.swift in Sources */,
+				A4447CB026D4C949000343D9 /* HomeScreen.swift in Sources */,
+				A4447CB226D4C9C5000343D9 /* SpottingsScreen.swift in Sources */,
+				A4447CB626D4C9F3000343D9 /* NotificationsScreen.swift in Sources */,
+				A4447CC726D4E147000343D9 /* ImagePicker.swift in Sources */,
+				A4ACD32826D569D600B227DF /* SpottingScreenPublisher.swift in Sources */,
+				A4447CAE26D4C4AC000343D9 /* AppTabs.swift in Sources */,
+				A4447CBF26D4D3DE000343D9 /* BirdrLogoWithCopy.swift in Sources */,
+				A4447CBD26D4D314000343D9 /* BirdrIcon.swift in Sources */,
+				A4447CB826D4CA12000343D9 /* ComingSoonDisplay.swift in Sources */,
+				A4447CBB26D4D08D000343D9 /* AnyImage.swift in Sources */,
+				A4447CC126D4D7E2000343D9 /* UnderConstructionLogo.swift in Sources */,
+				A4447CC526D4DF1E000343D9 /* AddSpottingScreen.swift in Sources */,
+				A449A5A826D4A67600387318 /* ContentView.swift in Sources */,
+				A4ACD32A26D5885F00B227DF /* BirdSpottingDisplay.swift in Sources */,
+				A4447CB426D4C9DA000343D9 /* SettingsScreen.swift in Sources */,
+				A449A5A626D4A67600387318 /* birdrApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449A5AF26D4A67C00387318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A449A5B826D4A67C00387318 /* birdr_mobile_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A449A5BA26D4A67C00387318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A449A5C326D4A67C00387318 /* birdr_mobile_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A449A5B526D4A67C00387318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A449A5A126D4A67600387318 /* birdr-mobile-app */;
+			targetProxy = A449A5B426D4A67C00387318 /* PBXContainerItemProxy */;
+		};
+		A449A5C026D4A67C00387318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A449A5A126D4A67600387318 /* birdr-mobile-app */;
+			targetProxy = A449A5BF26D4A67C00387318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A449A5C526D4A67C00387318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A449A5C626D4A67C00387318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A449A5C826D4A67C00387318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"birdr-mobile-app/Preview Content\"";
+				DEVELOPMENT_TEAM = C62HHAQ8W3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "birdr-mobile-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdr.birdr-mobile-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A449A5C926D4A67C00387318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"birdr-mobile-app/Preview Content\"";
+				DEVELOPMENT_TEAM = C62HHAQ8W3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "birdr-mobile-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdr.birdr-mobile-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A449A5CB26D4A67C00387318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C62HHAQ8W3;
+				INFOPLIST_FILE = "birdr-mobile-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdr.birdr-mobile-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdr-mobile-app.app/birdr-mobile-app";
+			};
+			name = Debug;
+		};
+		A449A5CC26D4A67C00387318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C62HHAQ8W3;
+				INFOPLIST_FILE = "birdr-mobile-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdr.birdr-mobile-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birdr-mobile-app.app/birdr-mobile-app";
+			};
+			name = Release;
+		};
+		A449A5CE26D4A67C00387318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C62HHAQ8W3;
+				INFOPLIST_FILE = "birdr-mobile-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdr.birdr-mobile-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "birdr-mobile-app";
+			};
+			name = Debug;
+		};
+		A449A5CF26D4A67C00387318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C62HHAQ8W3;
+				INFOPLIST_FILE = "birdr-mobile-appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.birdr.birdr-mobile-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "birdr-mobile-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A449A59D26D4A67600387318 /* Build configuration list for PBXProject "birdr-mobile-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A449A5C526D4A67C00387318 /* Debug */,
+				A449A5C626D4A67C00387318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A449A5C726D4A67C00387318 /* Build configuration list for PBXNativeTarget "birdr-mobile-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A449A5C826D4A67C00387318 /* Debug */,
+				A449A5C926D4A67C00387318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A449A5CA26D4A67C00387318 /* Build configuration list for PBXNativeTarget "birdr-mobile-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A449A5CB26D4A67C00387318 /* Debug */,
+				A449A5CC26D4A67C00387318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A449A5CD26D4A67C00387318 /* Build configuration list for PBXNativeTarget "birdr-mobile-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A449A5CE26D4A67C00387318 /* Debug */,
+				A449A5CF26D4A67C00387318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A449A5D326D4ABB300387318 /* XCRemoteSwiftPackageReference "birdr-framework-layer-apple-platforms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/reuschj/birdr-framework-layer-apple-platforms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A449A5D426D4ABB300387318 /* BirdrAPIFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A449A5D326D4ABB300387318 /* XCRemoteSwiftPackageReference "birdr-framework-layer-apple-platforms" */;
+			productName = BirdrAPIFoundation;
+		};
+		A449A5D626D4ABB300387318 /* BirdrAPIClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A449A5D326D4ABB300387318 /* XCRemoteSwiftPackageReference "birdr-framework-layer-apple-platforms" */;
+			productName = BirdrAPIClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A449A59A26D4A67600387318 /* Project object */;
+}
